@@ -34,7 +34,6 @@ public class LinkedListTest {
 		//순회3
 		for(String s : list){
 			System.out.println(s);
-
 	}
 	}
 }

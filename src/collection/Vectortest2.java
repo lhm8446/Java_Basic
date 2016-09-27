@@ -34,7 +34,6 @@ public class Vectortest2 {
 		//순회3
 		for(String s : list){
 			System.out.println(s);
-
 	}
 	}
 }

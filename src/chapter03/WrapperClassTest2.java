@@ -4,8 +4,8 @@ public class WrapperClassTest2 {
 
 	public static void main(String[] args) {
 		int i = Integer.parseInt("12345");
-		Integer i2 = Integer.parseInt("12345");
-		String s2 = String.valueOf(i2);
+		Integer i2 = Integer.parseInt("12345");  //문자열을 정수형으로
+		String s2 = String.valueOf(i2);			 //정수를 문자열로 
 		
 		double d = Double.parseDouble("3.14");
 		int num = Character.getNumericValue('A');
