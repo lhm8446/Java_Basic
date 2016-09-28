@@ -16,7 +16,6 @@ public class IOExample {
 		int data = -1;
 		while((data = bis.read()) != -1){
 			bos.write(data);
-			
 		}
 		
 		dest = bos.toByteArray();
